@@ -1,0 +1,34 @@
+.submit{
+ 	 
+ 	  border-radius: 4px;
+	  padding: 1px 15px;
+	  line-height: 40px;
+	  font-size: 18px;
+	  text-align: center;	
+	  text-decoration: none;
+	  outline: none;
+	  color: #7d8092;
+	  background-color:#f2f2f2;
+	  border: 2px solid #e0e0e0; 
+	  margin-left: -3cm;
+	 
+ 	}
+ 	.submit:hover{
+ 		background-color: #276705;
+ 		color: white;
+ 		-webkit-transition: .3s ease-in-out;
+ 		transition: .3s ease-in-out;
+ 	} 
+ 	.submit:focus{
+ 		background-color: #008329;
+ 	}
+
+ 	.start{
+ 		color:green;
+ 		font-size: 18px;
+ 	}
+ 	.start:hover{
+ 		text-decoration: underline;
+ 		color: green;
+ 	}
+ 

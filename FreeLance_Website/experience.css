@@ -1,0 +1,137 @@
+.main{
+		text-align: center;
+		margin-top: 3.5cm;
+}
+
+	
+	#head{
+		float: left;
+		margin-left:3cm;  
+		font-size: 30px;
+		line-height: 20px;
+		color: grey;
+		font-weight:initial;	
+	    font-family: Gotham;
+		font-style: normal;		
+	
+	}
+	
+	body{
+		background-color: #f9f9f9;
+	}
+
+#mommy{
+	border: 2px solid #e0e0e0;
+	background: white;
+	padding: 20px;
+	-webkit-box-flex: 1;
+	width: 75%;
+	margin-bottom: 2cm;
+	margin-left: 4cm; 
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;/*start, end, center*/
+	height: 400px;
+}
+#kid1{
+	border: 2px solid #e0e0e0;
+	border-radius: 5px;
+	background: white;
+	padding: 20px;
+	margin: 20px;
+	-webkit-box-flex: 1;/*This function makes the boxes flexible and adjudtible according to the documemnt size*/
+	height: 4cm;
+	width: 6cm;
+	text-align: center;
+	font-size: 18px;
+}
+
+#kid1:hover{
+	border-bottom-color: green;
+	border-bottom: 3px solid green;
+	color: green;
+}
+
+button{
+	background-color: white;
+	border:none;
+	font-family: Gotham;
+	font-family: Gotham;
+
+}
+
+#exp{
+	font-size: 25px;
+}
+#need { 
+
+	    border: 2px solid #e0e0e0; 
+	    outline:0; 
+	    padding-left: 30px;
+	    height:35px; 
+	    width: 400px; 
+	    margin-left: -10cm;
+	    font-family: Gotham;
+	    font-size: 14px;
+	    font-style: #494949;
+	    line-height: 34px;
+  } 
+	#need:hover{
+		border: 2px solid #a6d761; 
+	    -webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;	   
+}
+
+	#need:focus {
+    border-color: green;
+    outline: none;
+}
+hr.horizontal{
+	width:100%;
+	height:0; 
+	border: 1px solid #e0e0e0; 
+	opacity: 0.90;
+}
+
+.submit{
+	  display: inline-block;
+ 	  border-radius: 4px;
+	  padding: 10px 30px;
+	  font-size: 20px;
+	  cursor: pointer;
+	  text-align: center;	
+	  text-decoration: none;
+	  outline: none;
+	  color: #fff;
+	  background-color:#5bbc2e;
+	  opacity: 1.09;
+	  border: none;
+
+ 	}
+ 	.submit:hover{
+ 		background-color: #276705;
+ 		-webkit-transition: .3s ease-in-out;
+ 		transition: .3s ease-in-out;
+ 	} 
+
+ 	.back{
+ 	  border: 2px solid #e0e0e0; 
+	  display: inline-block;
+ 	  border-radius: 4px;
+	  padding: 10px 30px;
+	  font-size: 20px;
+	  cursor: pointer;
+	  text-align: center;	
+	  text-decoration: none;
+	  outline: none;
+	  color: green;
+	  opacity: 1.09;
+
+ 	}
+ 	.back:hover{
+ 		 border: 2px solid green; 
+ 		 color: green;
+ 		-webkit-transition: .3s ease-in-out;
+ 		transition: .3s ease-in-out;
+ 	} 
+ 	

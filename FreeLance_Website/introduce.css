@@ -1,0 +1,253 @@
+
+.main{
+	text-align: center;
+	margin-top: 4cm;
+}
+	
+	#photo{
+		color: green;
+		font-family: "Gotham SSm", Helvetica, Arial, sans-serif;
+	}
+	#photo:hover{
+		text-decoration: underline;
+	}
+	#head{
+		float: left;
+		margin-left:3cm;  
+		font-size: 30px;
+		line-height: 20px;
+		color: grey;
+		font-weight:initial;	
+	    font-family: Gotham;
+		font-style: normal;		
+	
+	}
+	#mommy{
+		border: 2px solid #e0e0e0;
+		float: right;
+		margin-right:3cm; 
+		background: white;
+		padding: 20px;
+		-webkit-box-flex: 1;
+		width: 80%;
+		margin-bottom: 2cm;
+
+}
+		
+	body{
+		background-color: #f9f9f9;
+	}
+	
+ 	.submit{
+	  display: inline-block;
+ 	  border-radius: 4px;
+	  padding: 10px 30px;
+	  font-size: 20px;
+	  cursor: pointer;
+	  text-align: center;	
+	  text-decoration: none;
+	  outline: none;
+	  color: #fff;
+	  background-color:#5bbc2e;
+	  opacity: 1.09;
+	  border: none;
+
+ 	}
+ 	.submit:hover{
+ 		background-color: #276705;
+ 		-webkit-transition: .3s ease-in-out;
+ 		transition: .3s ease-in-out;
+ 	} 
+
+ 	.back{
+ 	  border: 2px solid #e0e0e0; 
+	  display: inline-block;
+ 	  border-radius: 4px;
+	  padding: 10px 30px;
+	  font-size: 20px;
+	  cursor: pointer;
+	  text-align: center;	
+	  text-decoration: none;
+	  outline: none;
+	  color: green;
+	  opacity: 1.09;
+
+ 	}
+ 	.back:hover{
+ 		 border: 2px solid green; 
+ 		 color: green;
+ 		-webkit-transition: .3s ease-in-out;
+ 		transition: .3s ease-in-out;
+ 	} 
+ 	
+ 	
+ 
+ select{
+ 		width: 50%;
+		border: 2px solid #e0e0e0; 
+		height: 40px;
+		color: green;
+		display: inline-block;
+		padding: 3px 6px;
+		font-family: Gotham;
+   	   font-size: 18px;
+        -moz-appearance:none; 
+
+ 	}	
+ 	select:hover{
+		border: 2px solid #a6d761; 
+	    -webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+	   
+}
+
+	select:focus{
+		    border-color: green;
+    		outline: none;
+	}
+
+	option{
+		border: 1px solid #e0e0e0; 
+		height: 40px;
+		color: grey;
+		font-family: Gotham;
+   	    font-size: 18px;
+
+   	    background-color: white;
+		text-decoration-color: none;
+   	   
+	}
+
+	option:hover{
+		border: 1px solid green; 
+		background-color: white;
+		text-decoration-color: none;
+	}	select{
+ 		width: 50%;
+		border: 2px solid #e0e0e0; 
+		height: 40px;
+		color: green;
+		 margin-top: -0.3cm;
+		display: inline-block;
+		padding: 3px 6px;
+		font-family: Gotham;
+   	   font-size: 18px;
+        -moz-appearance:none; 
+
+ 	}	
+ 	select:hover{
+		border: 2px solid #a6d761; 
+	    -webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+	   
+}
+
+	select:focus{
+		    border-color: green;
+    		outline: none;
+	}
+
+	option{
+		border: 2px solid #e0e0e0; 
+		height: 40px;
+		color: grey;
+		font-family: Gotham;
+   	    font-size: 18px;
+   	   
+	}
+
+	option:hover{
+		color: green;
+	}
+	#need { 
+
+	    border: 2px solid #e0e0e0; 
+	    outline:0; 
+	    float: left;
+	    padding-left: 25px;
+	    height:35px; 
+	    width: 600px; 
+	    margin-top: -0.5cm;
+	    font-family: Gotham;
+	    font-size: 14px;
+	    font-style: #494949;
+	   
+  } 
+	#need:hover{
+		border: 2px solid #a6d761; 
+	    -webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;	   
+}
+
+	#need:focus {
+    border-color: green;
+    outline: none;
+}
+
+#skills{
+		 border: 2px solid white; 
+	    outline:0; 
+	    float: left;
+	    padding-left: 25px;
+	    height: 100px; 
+	    width: 500px; 
+	    margin-top: -0.3cm;
+	    font-family: Gotham;
+	    font-size: 14px;
+	    font-style: #494949;
+}
+
+#skills:hover{
+		border: 2px solid #a6d761; 
+	    -webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;	   
+}
+
+	#skills:focus {
+    border-color: green;
+    outline: none;
+}
+
+#skills:visited:active{
+	border-color: green;
+    outline: none;
+}
+
+textarea{
+	    border: 2px solid #e0e0e0; 
+	    outline:0; 
+	    margin-top: -0.3cm;
+	    float: left;
+	    padding-left: 25px;
+	    height: 150px; 
+	    width: 600px; 
+	    font-family: Gotham;
+	    font-size: 14px;
+	    font-style: #494949;
+	   
+}
+
+	textarea:hover{
+		border: 2px solid #a6d761; 
+	    -webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;	   
+}
+
+	textarea:focus {
+    border-color: green;
+    outline: none;
+}
+
+hr.horizontal{
+	width:100%;
+	height:0; 
+	border: 1px solid #e0e0e0; 
+	opacity: 0.90;
+}
+
+#text{
+	color: #494949;
+	line-height: 25px;
+	font-size: 20px;
+	font-family: "Gotham SSm", Helvetica, Arial, sans-serif;
+}

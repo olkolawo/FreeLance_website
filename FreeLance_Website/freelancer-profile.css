@@ -1,0 +1,44 @@
+#mommy{
+	border: 2px solid #e0e0e0;
+	background: white;
+	padding: 20px;
+	-webkit-box-flex: 1;
+	width: 80%;
+	margin-bottom: 2cm;
+	margin-left: 3cm; 
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;/*start, end, center*/
+	height: 400px;
+}
+#kid1{
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	background: white;
+	padding: 20px;
+	margin: 20px;
+	-webkit-box-flex: 1;/*This function makes the boxes flexible and adjudtible according to the documemnt size*/
+	height: 100px;
+	width: 4cm;
+	text-align: center;
+	font-size: 18px;
+}
+
+#kid1:hover{
+	border-bottom-color: green;
+	border-bottom: 3px solid green;
+	color: green;
+}
+
+#mommy2{
+	
+	padding: 20px;
+	-webkit-box-flex: 1;
+	width: 80%;
+	margin-top: -8cm;
+	margin-left: 3cm; 
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;/*start, end, center*/
+}
+
